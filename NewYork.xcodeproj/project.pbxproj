@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10B879892194184500CA5A83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B879882194184500CA5A83 /* AppDelegate.swift */; };
+		10B8798B2194184500CA5A83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B8798A2194184500CA5A83 /* ViewController.swift */; };
+		10B8798E2194184500CA5A83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10B8798C2194184500CA5A83 /* Main.storyboard */; };
+		10B879902194184700CA5A83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10B8798F2194184700CA5A83 /* Assets.xcassets */; };
+		10B879932194184700CA5A83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10B879912194184700CA5A83 /* LaunchScreen.storyboard */; };
+		10B8799E2194184700CA5A83 /* NewYorkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B8799D2194184700CA5A83 /* NewYorkTests.swift */; };
+		10B879AA219442E200CA5A83 /* Articals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B879A9219442E200CA5A83 /* Articals.swift */; };
+		10B879B121945E1900CA5A83 /* NYTimeArticalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B879B021945E1900CA5A83 /* NYTimeArticalTableViewCell.swift */; };
+		10B879B82194653400CA5A83 /* NYTimeArticalServiceHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B879B72194653400CA5A83 /* NYTimeArticalServiceHandler.swift */; };
+		10B879BB219483DC00CA5A83 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B879BA219483DC00CA5A83 /* Image.swift */; };
+		10B879BD21954C3900CA5A83 /* NYTimeArticalDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B879BC21954C3900CA5A83 /* NYTimeArticalDetailsViewController.swift */; };
+		2C2602982F17F014D57C2004 /* Pods_NewYork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E03AD86B64C99465D057F8CD /* Pods_NewYork.framework */; };
+		61488EFE91866F4F07D54BDF /* Pods_NewYorkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7D61E7AFDED622F1D3DFD9 /* Pods_NewYorkTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10B8799A2194184700CA5A83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10B8797D2194184500CA5A83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10B879842194184500CA5A83;
+			remoteInfo = NewYork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D136D417352EB79E70B430B /* Pods-NewYork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewYork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NewYork/Pods-NewYork.debug.xcconfig"; sourceTree = "<group>"; };
+		10B879852194184500CA5A83 /* NewYork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewYork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10B879882194184500CA5A83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		10B8798A2194184500CA5A83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		10B8798D2194184500CA5A83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10B8798F2194184700CA5A83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10B879922194184700CA5A83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10B879942194184700CA5A83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10B879992194184700CA5A83 /* NewYorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewYorkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10B8799D2194184700CA5A83 /* NewYorkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewYorkTests.swift; sourceTree = "<group>"; };
+		10B8799F2194184700CA5A83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10B879A9219442E200CA5A83 /* Articals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Articals.swift; sourceTree = "<group>"; };
+		10B879B021945E1900CA5A83 /* NYTimeArticalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYTimeArticalTableViewCell.swift; sourceTree = "<group>"; };
+		10B879B72194653400CA5A83 /* NYTimeArticalServiceHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYTimeArticalServiceHandler.swift; sourceTree = "<group>"; };
+		10B879BA219483DC00CA5A83 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		10B879BC21954C3900CA5A83 /* NYTimeArticalDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYTimeArticalDetailsViewController.swift; sourceTree = "<group>"; };
+		24EAB22ABD2678737F52A734 /* Pods-NewYorkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewYorkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NewYorkTests/Pods-NewYorkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		37E0F4E52E7D055BA2F44A1E /* Pods-NewYorkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewYorkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewYorkTests/Pods-NewYorkTests.release.xcconfig"; sourceTree = "<group>"; };
+		AB7D61E7AFDED622F1D3DFD9 /* Pods_NewYorkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewYorkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE81CAD4CDD216D8E6C6D114 /* Pods-NewYork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewYork.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewYork/Pods-NewYork.release.xcconfig"; sourceTree = "<group>"; };
+		E03AD86B64C99465D057F8CD /* Pods_NewYork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewYork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10B879822194184500CA5A83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C2602982F17F014D57C2004 /* Pods_NewYork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10B879962194184700CA5A83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61488EFE91866F4F07D54BDF /* Pods_NewYorkTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DFC929BCADCFCF8B56C35B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E03AD86B64C99465D057F8CD /* Pods_NewYork.framework */,
+				AB7D61E7AFDED622F1D3DFD9 /* Pods_NewYorkTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		10B8797C2194184500CA5A83 = {
+			isa = PBXGroup;
+			children = (
+				10B879872194184500CA5A83 /* NewYork */,
+				10B8799C2194184700CA5A83 /* NewYorkTests */,
+				10B879862194184500CA5A83 /* Products */,
+				372A5E063BC4413E0BC62499 /* Pods */,
+				0DFC929BCADCFCF8B56C35B4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		10B879862194184500CA5A83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10B879852194184500CA5A83 /* NewYork.app */,
+				10B879992194184700CA5A83 /* NewYorkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10B879872194184500CA5A83 /* NewYork */ = {
+			isa = PBXGroup;
+			children = (
+				10B879882194184500CA5A83 /* AppDelegate.swift */,
+				10B879A82194419D00CA5A83 /* Model */,
+				10B879AB21945CA200CA5A83 /* View */,
+				10B879B22194637700CA5A83 /* Controller */,
+				10B879B3219463BC00CA5A83 /* ServiceHandler */,
+				10B879B9219483A200CA5A83 /* Extension */,
+				10B879BE21955E2000CA5A83 /* StoryBoard */,
+				10B879C02195650400CA5A83 /* HelperClasses */,
+				10B879BF21955F0D00CA5A83 /* Supporting Files */,
+				10B879942194184700CA5A83 /* Info.plist */,
+				10B8798F2194184700CA5A83 /* Assets.xcassets */,
+			);
+			path = NewYork;
+			sourceTree = "<group>";
+		};
+		10B8799C2194184700CA5A83 /* NewYorkTests */ = {
+			isa = PBXGroup;
+			children = (
+				10B8799D2194184700CA5A83 /* NewYorkTests.swift */,
+				10B8799F2194184700CA5A83 /* Info.plist */,
+			);
+			path = NewYorkTests;
+			sourceTree = "<group>";
+		};
+		10B879A82194419D00CA5A83 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				10B879A9219442E200CA5A83 /* Articals.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		10B879AB21945CA200CA5A83 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				10B879B021945E1900CA5A83 /* NYTimeArticalTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		10B879B22194637700CA5A83 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				10B8798A2194184500CA5A83 /* ViewController.swift */,
+				10B879BC21954C3900CA5A83 /* NYTimeArticalDetailsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		10B879B3219463BC00CA5A83 /* ServiceHandler */ = {
+			isa = PBXGroup;
+			children = (
+				10B879B72194653400CA5A83 /* NYTimeArticalServiceHandler.swift */,
+			);
+			path = ServiceHandler;
+			sourceTree = "<group>";
+		};
+		10B879B9219483A200CA5A83 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				10B879BA219483DC00CA5A83 /* Image.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		10B879BE21955E2000CA5A83 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				10B8798C2194184500CA5A83 /* Main.storyboard */,
+				10B879912194184700CA5A83 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		10B879BF21955F0D00CA5A83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10B879C02195650400CA5A83 /* HelperClasses */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HelperClasses;
+			sourceTree = "<group>";
+		};
+		372A5E063BC4413E0BC62499 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D136D417352EB79E70B430B /* Pods-NewYork.debug.xcconfig */,
+				BE81CAD4CDD216D8E6C6D114 /* Pods-NewYork.release.xcconfig */,
+				24EAB22ABD2678737F52A734 /* Pods-NewYorkTests.debug.xcconfig */,
+				37E0F4E52E7D055BA2F44A1E /* Pods-NewYorkTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10B879842194184500CA5A83 /* NewYork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10B879A22194184700CA5A83 /* Build configuration list for PBXNativeTarget "NewYork" */;
+			buildPhases = (
+				DA23B7A94DC0936FB7569C82 /* [CP] Check Pods Manifest.lock */,
+				10B879812194184500CA5A83 /* Sources */,
+				10B879822194184500CA5A83 /* Frameworks */,
+				10B879832194184500CA5A83 /* Resources */,
+				B77D43CC573B7D87D4154BFF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewYork;
+			productName = NewYork;
+			productReference = 10B879852194184500CA5A83 /* NewYork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10B879982194184700CA5A83 /* NewYorkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10B879A52194184700CA5A83 /* Build configuration list for PBXNativeTarget "NewYorkTests" */;
+			buildPhases = (
+				81F3AB6999AACA79CF69027F /* [CP] Check Pods Manifest.lock */,
+				10B879952194184700CA5A83 /* Sources */,
+				10B879962194184700CA5A83 /* Frameworks */,
+				10B879972194184700CA5A83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10B8799B2194184700CA5A83 /* PBXTargetDependency */,
+			);
+			name = NewYorkTests;
+			productName = NewYorkTests;
+			productReference = 10B879992194184700CA5A83 /* NewYorkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10B8797D2194184500CA5A83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Upendra Nimmala";
+				TargetAttributes = {
+					10B879842194184500CA5A83 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					10B879982194184700CA5A83 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 10B879842194184500CA5A83;
+					};
+				};
+			};
+			buildConfigurationList = 10B879802194184500CA5A83 /* Build configuration list for PBXProject "NewYork" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10B8797C2194184500CA5A83;
+			productRefGroup = 10B879862194184500CA5A83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10B879842194184500CA5A83 /* NewYork */,
+				10B879982194184700CA5A83 /* NewYorkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10B879832194184500CA5A83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10B879932194184700CA5A83 /* LaunchScreen.storyboard in Resources */,
+				10B879902194184700CA5A83 /* Assets.xcassets in Resources */,
+				10B8798E2194184500CA5A83 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10B879972194184700CA5A83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		81F3AB6999AACA79CF69027F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NewYorkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B77D43CC573B7D87D4154BFF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NewYork/Pods-NewYork-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewYork/Pods-NewYork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA23B7A94DC0936FB7569C82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NewYork-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10B879812194184500CA5A83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10B879B121945E1900CA5A83 /* NYTimeArticalTableViewCell.swift in Sources */,
+				10B879BB219483DC00CA5A83 /* Image.swift in Sources */,
+				10B879AA219442E200CA5A83 /* Articals.swift in Sources */,
+				10B879B82194653400CA5A83 /* NYTimeArticalServiceHandler.swift in Sources */,
+				10B8798B2194184500CA5A83 /* ViewController.swift in Sources */,
+				10B879892194184500CA5A83 /* AppDelegate.swift in Sources */,
+				10B879BD21954C3900CA5A83 /* NYTimeArticalDetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10B879952194184700CA5A83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10B8799E2194184700CA5A83 /* NewYorkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10B8799B2194184700CA5A83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10B879842194184500CA5A83 /* NewYork */;
+			targetProxy = 10B8799A2194184700CA5A83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		10B8798C2194184500CA5A83 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10B8798D2194184500CA5A83 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		10B879912194184700CA5A83 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10B879922194184700CA5A83 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10B879A02194184700CA5A83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		10B879A12194184700CA5A83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10B879A32194184700CA5A83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D136D417352EB79E70B430B /* Pods-NewYork.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NewYork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"SDWebImage\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.NewYork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10B879A42194184700CA5A83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE81CAD4CDD216D8E6C6D114 /* Pods-NewYork.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NewYork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"SDWebImage\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.NewYork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		10B879A62194184700CA5A83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24EAB22ABD2678737F52A734 /* Pods-NewYorkTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NewYorkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.NewYorkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewYork.app/NewYork";
+			};
+			name = Debug;
+		};
+		10B879A72194184700CA5A83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37E0F4E52E7D055BA2F44A1E /* Pods-NewYorkTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NewYorkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.NewYorkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewYork.app/NewYork";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10B879802194184500CA5A83 /* Build configuration list for PBXProject "NewYork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10B879A02194184700CA5A83 /* Debug */,
+				10B879A12194184700CA5A83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10B879A22194184700CA5A83 /* Build configuration list for PBXNativeTarget "NewYork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10B879A32194184700CA5A83 /* Debug */,
+				10B879A42194184700CA5A83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10B879A52194184700CA5A83 /* Build configuration list for PBXNativeTarget "NewYorkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10B879A62194184700CA5A83 /* Debug */,
+				10B879A72194184700CA5A83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10B8797D2194184500CA5A83 /* Project object */;
+}
